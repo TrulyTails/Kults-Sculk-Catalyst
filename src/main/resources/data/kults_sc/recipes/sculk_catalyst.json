@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+
+    "F": {
+      "item": "minecraft:rotten_flesh"},
+
+    "B": {
+      "item": "minecraft:bone"},
+
+    "E": {
+      "item": "minecraft:spider_eye"},
+
+    "G": {
+      "item": "minecraft:gunpowder"},
+
+    "Q": {
+      "item": "minecraft:quartz_block"},
+
+    "P": {
+      "item": "minecraft:ender_pearl"},
+
+    "O": {
+      "item": "minecraft:experience_bottle"}
+  },
+  "pattern": [
+    "FBE",
+    "GQP",
+    "OOO"
+  ],
+  "result": {
+    "item": "minecraft:sculk_catalyst"
+  }
+}

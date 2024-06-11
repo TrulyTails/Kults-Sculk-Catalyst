@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "kults_sc",
+	"version": "${version}",
+	"name": "Kults Sculk Catalyst",
+	"description": "Creates a crafting recipe for the Sculk Catalyst",
+	"authors": [
+		"TrulyTails/Kultist"
+	],
+	"contact": {
+		"homepage": "SOONTM",
+		"sources": "GITHUB SOONTM"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/kults_sc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kultist.ksc.KultsSculkCatalyst"
+		],
+		"client": [
+			"net.kultist.ksc.KultsSculkCatalystClient"
+		],
+		"fabric-datagen": [
+			"net.kultist.ksc.KultsSculkCatalystDataGenerator"
+		]
+	},
+	"mixins": [
+		"kults_sc.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
