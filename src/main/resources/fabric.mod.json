@@ -8,10 +8,10 @@
 		"TrulyTails/Kultist"
 	],
 	"contact": {
-		"homepage": "SOONTM",
-		"sources": "GITHUB SOONTM"
+		"homepage": "https://discord.com/invite/Md583nhGhJ",
+		"sources": "https://github.com/TrulyTails/Kults-Sculk-Catalyst"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/kults_sc/icon.png",
 	"environment": "*",
 	"entrypoints": {
